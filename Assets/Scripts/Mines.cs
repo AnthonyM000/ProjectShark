@@ -26,6 +26,7 @@ public class Mines : MonoBehaviour
               Rigidbody rigg = nearyby.GetComponent<Rigidbody>();
             if(rigg != null)
             {
+                rigg.velocity = Vector3.zero; //reset the rigidbody's velocity
                 rigg.AddExplosionForce(expForce, transform.position, radius);
             }
         }
