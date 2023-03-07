@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667576, g: 0.484272, b: 0.5645239, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -534,7 +534,7 @@ MonoBehaviour:
   maxHealth: 4
   currenthealth: 0
   Points: 0
-  healthBar: {fileID: 798708664}
+  healthBar: {fileID: 798708666}
   forwardSpeed: 100
   strafeSpeed: 7.5
   hoverSpeed: 5
@@ -568,7 +568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798708663}
   - component: {fileID: 798708665}
-  - component: {fileID: 798708664}
+  - component: {fileID: 798708666}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -599,19 +599,6 @@ RectTransform:
   m_AnchoredPosition: {x: -707.18024, y: 479.3}
   m_SizeDelta: {x: 371.6396, y: 61.369}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &798708664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798708662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264d614c631218e4783b16c93e087f4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 798708665}
 --- !u!114 &798708665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +650,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &798708666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798708662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e4ecbad4170dfe4e8367a62d07402f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 798708665}
 --- !u!1 &898768804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,8 +1324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddeb5c234d2ce749af74e9da470f091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
-  laserOrigin: {fileID: 0}
+  playerCamera: {fileID: 216473451}
+  laserOrigin: {fileID: 1242524657}
   gunrange: 50
   firerate: 0.2
   laserDuration: 0.05
@@ -1486,14 +1486,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700193714}
   m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.7071079}
-  m_LocalPosition: {x: -0.74, y: 5.52, z: 13.04}
+  m_LocalPosition: {x: -0.04000002, y: 3.7084293, z: 4.949725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1242524657}
   - {fileID: 1417434666}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 661310917}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1790169312
 PrefabInstance:
