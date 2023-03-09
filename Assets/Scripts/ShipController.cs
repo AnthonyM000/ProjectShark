@@ -48,7 +48,7 @@ public class ShipController : MonoBehaviour
 
         mouseDistance = Vector2.ClampMagnitude(mouseDistance, 1f);
 
-        rollInput = Mathf.Lerp(rollInput, Input.GetAxisRaw("Roll"), rollAcceleration * Time.deltaTime);
+        rollInput = Mathf.Lerp(rollInput, Input.GetAxisRaw("Roll"), rollAcceleration * Time.deltaTime);//Allows Shark to Roll
 
         //Applying mouse movement to ship rotation
 
